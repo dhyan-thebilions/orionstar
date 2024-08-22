@@ -1,0 +1,33 @@
+.footer-bg {
+  margin-top: 140px;
+  /* background-color: #000; */
+}
+
+.footer-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-txt {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .footer-txt {
+    line-height: 150%;
+  }
+}

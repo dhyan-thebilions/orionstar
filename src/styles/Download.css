@@ -1,0 +1,143 @@
+.download-bg {
+  border-radius: 693px;
+  background: #9500ff;
+  filter: blur(400px);
+
+  position: absolute;
+  z-index: 1;
+  width: 693px;
+  height: 693px;
+  top: 600%;
+  right: 0;
+}
+
+.download-app {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 80px;
+
+  position: relative;
+  z-index: 2;
+}
+
+.follow-these {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 32px;
+
+  position: relative;
+  z-index: 2;
+}
+
+.download-card-override {
+  border-radius: 12px !important;
+  border: 1px solid #9500ff !important;
+  padding: 24px !important;
+  gap: 24px !important;
+  background: transparent !important;
+
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.download-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+  z-index: 2;
+}
+
+.qr-image {
+  margin-top: 24px;
+}
+
+.download-for {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  position: relative;
+  z-index: 2;
+}
+
+.click-on-the-container {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+
+  position: relative;
+  z-index: 2;
+}
+
+.this-link {
+  text-decoration-line: underline;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .download-bg {
+    top: 550%;
+  }
+
+  .download-app {
+    font-size: 40px;
+  }
+
+  .follow-these {
+    font-size: 18px;
+  }
+
+  .download-for {
+    font-size: 24px;
+  }
+
+  .click-on-the-container {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .download-bg {
+    display: none;
+  }
+
+  .download-app {
+    font-size: 24px;
+  }
+
+  .follow-these {
+    font-size: 18px;
+  }
+
+  .download-for {
+    font-size: 24px;
+  }
+
+  .click-on-the-container {
+    line-height: 25px;
+    font-size: 18px;
+  }
+}
